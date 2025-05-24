@@ -1,4 +1,8 @@
 <template>
+
+  <head>
+    <link rel="icon" href="/assets/Transplify-favicon.svg" type="image/x-icon">
+  </head>
     <div class="container">
         
          <!-- Hero Section -->

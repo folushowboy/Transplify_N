@@ -2,7 +2,7 @@
     <div>
         <header>
             <img src="/assets/logo.jpg" alt="" class="logo" />
-            <div class="menu-toggle" onclick="toggleMenu()">
+            <div class="menu-toggle" @click="toggleMenu">
                 <div></div>
                 <div></div>
                 <div></div>
@@ -92,6 +92,7 @@ import '~/assets/css/app.css'
 function toggleMenu() {
     document.querySelector('nav ul').classList.toggle('active');
 }
+
 </script>
 
-<style scoped></style>
+<style scoped> </style>
